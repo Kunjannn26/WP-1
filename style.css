@@ -12,7 +12,7 @@
     margin: auto;
     display: flex;
     background-image: url(bgfinal.jpeg);
-    width: 1600px;
+    width: 1550px;
     height: 506px;  
     border-radius : 0px 0px 10px 10px;
     background-repeat : no-repeat;
@@ -80,8 +80,8 @@ h1{
   position: absolute;
 width: 449px;
 height: 116px;
-left: 461px;
-top: 500px;
+left: 500px;
+top: 520px;
 font-family: Song Myung;
 font-style: normal;
 font-weight: normal;
