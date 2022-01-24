@@ -5,22 +5,28 @@
     <title>Mr. Bean Café</title>
 </head>
 <body>
-    <div class="bgimg">
+ 
     <div class="container">
-        <img src="background.png" alt="">
+        
         <div class="topnav" id="myTopnav">
           <a href="#Home" class="active">Home</a>
           <a href="#Menu">Menu</a>
           <a href="#About">About</a>
-          <a href="#Feedback">Feedback</a>
+          <a href="#Review">Review</a>
           <a href="#Contact us">Contact Us</a>
         </div>
         
         <div class="login">
-            <a href="#">Login/Sign-up</a>
+            <a href="#">Order Now</a>
         </div>
-        </div>
-        </div>
+    </div>
+        <div class="title">
+            <h1 class="heading">Mr. Bean Café</h1>
+    </div>
+    <div class="tagline">
+        <h2 class="line">Discover the taste of the real coffee.</h2>
+    </div>
+
 
 </body>
 </html>
