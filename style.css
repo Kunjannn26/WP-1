@@ -5,21 +5,16 @@
   html {
     scroll-behavior: smooth;
   }
-  .container{
-    font-family: Source Sans Pro;
+  .container{ 
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
-    line-height: 31px;
-    color: #7F4B3A;
     margin: auto;
     display: flex;
-    align-items: left;
     background-image: url(bgfinal.jpeg);
     width: 1600px;
     height: 506px;
-    right: 0px;
-    top: 0px;
+    
     border-radius : 0px 0px 10px 10px;
     background-repeat : no-repeat;
     
@@ -27,19 +22,17 @@
 
   .login{
     position: absolute;
-    width: 148px;
-    height: 31px;
-    left: 1119px;
+    left: 1200px;
     top: 0px; 
     font-family: Source Sans Pro;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
-    line-height: 31px;
     color: #FFFFFF;
     justify-content: right;
     padding-top: 20px;
-    padding-left: 150px;
+    padding-left: 130px;
+    
   }
 
   .topnav {
@@ -48,15 +41,20 @@
     display: flex;
     padding-top: 20px;
     padding-left: 20px;
+    height: 5vh;
   }
   .topnav a {
     float: none;
-    display: block;
     color: #333;
     text-decoration: none;
     font-family: Source Sans Pro;
-    padding-right: 20px;
-    padding-left: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: all 0.5s ease;
+  }
+  .topnav a:hover {
+    background-color: rgb(183, 219, 219);
+    color: #333;
   }
 .login a{
     text-decoration: none;
@@ -64,9 +62,16 @@
     display: block;
     font-family: Source Sans Pro;
     color: #FFFFFF;
-    float: none;
     text-decoration: none;
     font-family: Source Sans Pro;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    transition: all 0.5s ease;
+
    
-   
+}
+.login a:hover {
+  background-color: rgb(183, 219, 219);
+  color: #333;
 }
